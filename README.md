@@ -234,14 +234,43 @@ This project uses the following technologies:
 You can test the API using tools like Postman or Swagger UI:
 
 - **Swagger UI**: Visit `http://localhost:5000/api-docs` to view the interactive Swagger documentation and test the API directly.
-- **Postman**: You can also import the API endpoints into Postman and test the CRUD operations.
+
+- **Postman**: You can also import the API endpoints into Postman by following these steps:
+
+  1. Download the `Task Management.postman_collection.json` file.
+  2. Open Postman and click on the **Import** button in the top-left corner.
+  3. Select the **File** tab and choose the `Task Management.postman_collection.json` file.
+  4. Click **Open** to import the collection.
+  5. Once the collection is imported, you can test all the API endpoints (GET, POST, PUT, DELETE) directly in Postman.
+  6. This Postman collection provides pre-configured requests for each endpoint in the Task Management API, making it easy to test CRUD operations.
+
+Here is the content in markdown format, including the Mocha and Chai badges and the necessary sections:
+
+
+## Setup for Testing with Mocha and Chai 
+![Mocha](https://img.shields.io/badge/Mocha-8.4.0-blue)  
+![Chai](https://img.shields.io/badge/Chai-4.3.4-orange)  
+To install testing dependencies, run:
+
+```bash
+npm install --save-dev mocha chai chai-http  
+```
+
+## Running Tests  
+To execute the tests, use the following command:
+
+```bash
+npm test  
+```
+The tests include CRUD operations for task management, ensuring that the API behaves as expected.
+
 
 ---
 
+
 ## License ![License](https://img.shields.io/badge/license-MIT-green)
 
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE)  file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 ---
