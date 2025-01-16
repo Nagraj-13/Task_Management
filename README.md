@@ -244,8 +244,6 @@ You can test the API using tools like Postman or Swagger UI:
   5. Once the collection is imported, you can test all the API endpoints (GET, POST, PUT, DELETE) directly in Postman.
   6. This Postman collection provides pre-configured requests for each endpoint in the Task Management API, making it easy to test CRUD operations.
 
-Here is the content in markdown format, including the Mocha and Chai badges and the necessary sections:
-
 
 ## Setup for Testing with Mocha and Chai 
 ![Mocha](https://img.shields.io/badge/Mocha-8.4.0-blue)  
